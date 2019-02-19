@@ -16,6 +16,7 @@ body{
     height: 50px;
     background-color:rgb(41,45,50);
     color: #ccc;
+  
 }
 .index>.nav>.list>li{/*导航列表*/
     float: left;
@@ -26,19 +27,31 @@ body{
     font-size: 30px;
     cursor: pointer;
     position: relative;
+    z-index: 2;
+    overflow: hidden;  
+}
+.index>.nav>.list>li>ul>li{/*导航下拉列表*/
+    background-color: rgb(41,45,50);
+    color: #ccc;
 }
 .index>.nav>.list>li:hover{/*导航列表悬浮*/
     background-color: #ccc;
     color: rgb(41,45,50);
+    overflow: visible;
+}
+.index>.nav>.list>li>ul>li:hover{/*导航下拉列表悬浮*/
+    background-color: #ccc;
+    color: rgb(41,45,50);
 }
 
-.index>.nav>.list>li>details>ul>li{/*导航下拉列表*/
+/*.index>.nav>.list>li>.detail>ul>li{/*导航下拉列表
+    
     background-color: #ccc;
     cursor: pointer;
     color: rgb(41,45,50);
     
 }
-.index>.nav>.list>li>details>ul>li:hover{/*导航下拉列表悬浮*/
+.index>.nav>.list>li>.detail>ul>li:hover{/*导航下拉列表悬浮
     background-color: rgb(41,45,50);
     color: #ccc;
-}
+}/*/

@@ -2,7 +2,7 @@
     width: 20%;
     position: fixed;
     right: 0;
-    bottom: 0;
+    top: 0;
 }
 .chick img{
     width: 100%;
@@ -13,4 +13,14 @@
     color: cornflowerblue;
     line-height: 40px;
     text-indent: 30px;
+}
+.chick span{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right:10px;
+    color: red;
+    cursor: pointer;
 }

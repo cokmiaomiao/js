@@ -13,7 +13,8 @@
     background-color: rgb(41,45,50);
     color:#ccc;
 }
-.discuss span{
+.discuss p{
     color: tomato;
     font-size: 40px;
+    background-color: steelblue;
 }

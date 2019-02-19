@@ -22,48 +22,44 @@
           <ul class="list">
                 <li>首页</li>
                 <li>
-                    <details>
-                        <summary>活动</summary>
-                        <ul>
-                            <li>最强王国</li>
-                            <li>矿脉</li>
-                            <li>巨龙战役</li>
-                            <li>秘境</li>    
-                        </ul>
-                    </details>   
+                    <ul>
+                        <li>活动</li>
+                        <li>最强王国</li>
+                        <li>矿脉</li>
+                        <li>巨龙战役</li>
+                        <li>秘境</li>
+                    </ul>
                 </li>
                 <li>
-                    <details>
-                        <summary>发展</summary>
-                        <ul>
-                            <li>自产</li>
-                            <li>结晶</li>
-                            <li>科研石</li>
-                            <li>装备</li>
-                            <li>建筑</li>    
-                        </ul>
-                    </details>   
+                    <ul>
+                        <li>发展</li>
+                        <li>自产</li>
+                        <li>结晶</li>
+                        <li>科研石</li>
+                        <li>装备</li>
+                        <li>建筑</li>    
+                    </ul>
                 </li>
                 <li>
-                    <details>
-                        <summary>军事</summary>
-                        <ul>
-                            <li>属性</li>
-                            <li>配兵</li>
-                            <li>龙晶</li>
-                            <li>龙语</li>
-                            <li>龙</li>    
-                        </ul>
-                    </details>   
+                    <ul>
+                        <li>军事</li>
+                        <li>属性</li>
+                        <li>配兵</li>
+                        <li>龙晶</li>
+                        <li>龙语</li>
+                        <li>龙</li>    
+                    </ul>  
                 </li>
                 <li>bug收集</li>
           </ul>
         </div>
         <!--老张鸡汤报告-->
-        <div class="chick">
+        <div class="chick" id="chick">
             <p>老张鸡汤区</p>
+            <span>&nbsp;滚</span>
             <img src="img/lingzhu.jpg" alt="">
         </div>
+
         <div class="first">
             <!--轮播-->
             <div class="carousel">
@@ -73,26 +69,30 @@
             </div>
             <!--视频-->
             <div class="_video">
-                <video class="video_" src="img/video/food.mp4" autoplay controls></video>
+                <video class="video_" src="img/video/food.mp4" controls poster="img/video/caiji.jpg"></video>
             </div> 
         </div>
         <hr>
         <div class="second"><!--二层-->
             <div class="discuss">
-                <span>一些报告文件</span>
+                <p>一些文件</p>
                 <ul>
                     <li>关于872王国远征清区的说明文件</li>
                     <li>关于nhz联盟的有关规定</li>
                     <li>一只算得快被追砍的视频文件</li>
-                    <li>关于老张和老大gay里gay气的一些图片</li>
-                    <li>秒秒变成大车头的可行性分析报告</li>
+                    <li>偷拍老张和老大gay里gay气的一些图片</li>
+                    <li>关于秒秒变成大车头的可行性分析报告</li>
                 </ul>
             </div>
         </div>
     </div>
 
     <script>
-        
+        var chick=document.getElementById("chick");
+        var x=document.querySelector(".chick span");
+        x.onclick=function(){
+            chick.style.display="none";
+        }
     </script>
 </body>
 </html>
