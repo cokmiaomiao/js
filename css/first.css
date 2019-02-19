@@ -1,5 +1,7 @@
-.first{/*清除轮播和视频文件的浮动*/
+.first::after{/*清除轮播和视频文件的浮动*/
     clear:both;
+    display:block;
+    content: "";
 }
 .carousel{/*轮播区域大小*/
     width: 50%;

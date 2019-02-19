@@ -23,7 +23,6 @@
     position: absolute;
     top: 0;
     right:10px;
-    color: red;
     cursor: pointer;
 }
 /*左下角音乐*/
@@ -33,16 +32,16 @@
     bottom: 0;
     text-align: center;
     color: darkorchid;
-    background:linear-gradient(to right,pink,deeppink);
+    background:linear-gradient(to right,pink,deeppink,pink);
     border-radius: 5%;
     padding: 5px;
     border:2px solid pink;
 }
-.bgm span{
+.bgm span,.chick span{
     color: tomato;
     transition: 2s;
 }
-.bgm span:hover{
+.bgm span:hover,.chick span:hover{
     color: springgreen;
     rotate: 1.2;
     cursor: pointer;

@@ -10,6 +10,8 @@
     }
     .discuss ul li{/*文件区的字体大小*/
         font-size: 15px;
+        text-indent: 20px;
+        border-radius: 0%;
     }
     .chick p{/*鸡汤的字体大小*/
         text-align: center;
@@ -21,8 +23,9 @@
         width: 40%;
     }
     .chick span{
-        bottom:0;
+        top:30px;
     }
+    
     ol{width: 100%;}
     
 }
