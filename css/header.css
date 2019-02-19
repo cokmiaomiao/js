@@ -8,6 +8,11 @@ body{
 }
 .header_img1{/*header图片*/
     width: 100%;
+    animation: img_anim 1s ease-in infinite alternate; 
+}
+@keyframes img_anim{
+    0%{opacity: .8;}
+    100%{opacity: 1;}
 }
 .index>.nav>.list{
     display: flex;
@@ -28,11 +33,14 @@ body{
     cursor: pointer;
     position: relative;
     z-index: 2;
-    overflow: hidden;  
+    overflow: hidden; 
+    transition: 2s;  
 }
 .index>.nav>.list>li>ul>li{/*导航下拉列表*/
     background-color: rgb(41,45,50);
     color: #ccc;
+    border-bottom: 1px solid white;
+    transition: 2s; 
 }
 .index>.nav>.list>li:hover{/*导航列表悬浮*/
     background-color: #ccc;

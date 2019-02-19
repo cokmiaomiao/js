@@ -3,6 +3,8 @@
     position: fixed;
     right: 0;
     top: 0;
+    background-color: rgb(218, 223,229);
+
 }
 .chick img{
     width: 100%;
