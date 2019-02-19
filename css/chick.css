@@ -1,4 +1,4 @@
-.chick{
+.chick{/*右上角鸡汤*/
     width: 20%;
     position: fixed;
     right: 0;
@@ -25,4 +25,12 @@
     right:10px;
     color: red;
     cursor: pointer;
+}
+/*左下角音乐*/
+.bgm{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: darkorchid;
 }
