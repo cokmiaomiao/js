@@ -29,12 +29,13 @@ body{
     height: 50px;
     text-align: center;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 25px;
     cursor: pointer;
     position: relative;
     z-index: 2;
     overflow: hidden; 
-    transition: 2s;  
+    transition: 2s;
+    border-right: 1px solid #ccc;  
 }
 .index>.nav>.list>li>ul>li{/*导航下拉列表*/
     background-color: rgb(41,45,50);
@@ -50,6 +51,8 @@ body{
 .index>.nav>.list>li>ul>li:hover{/*导航下拉列表悬浮*/
     background-color: #ccc;
     color: rgb(41,45,50);
+    font-size: 30px;
+
 }
 
 /*.index>.nav>.list>li>.detail>ul>li{/*导航下拉列表

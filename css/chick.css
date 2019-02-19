@@ -6,17 +6,17 @@
     background-color: rgb(218, 223,229);
 
 }
-.chick img{
+.chick img{/*引用图片*/
     width: 100%;
 }
-.chick p{
+.chick p{/*标题*/
     font-size: 30px;
     text-align: center;
     color: cornflowerblue;
     line-height: 40px;
     text-indent: 30px;
 }
-.chick span{
+.chick span{/*关闭功能*/
     width: 20px;
     height: 20px;
     font-size: 20px;
@@ -33,4 +33,17 @@
     bottom: 0;
     text-align: center;
     color: darkorchid;
+    background:linear-gradient(to right,pink,deeppink);
+    border-radius: 5%;
+    padding: 5px;
+    border:2px solid pink;
+}
+.bgm span{
+    color: tomato;
+    transition: 2s;
+}
+.bgm span:hover{
+    color: springgreen;
+    rotate: 1.2;
+    cursor: pointer;
 }

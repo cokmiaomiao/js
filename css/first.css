@@ -1,23 +1,22 @@
-.first{
+.first{/*清除轮播和视频文件的浮动*/
     clear:both;
 }
-.carousel{
+.carousel{/*轮播区域大小*/
     width: 50%;
-    clear: both;
-}
-.carousel>.car_img{
     float: left;
+}
+.carousel>.car_img{/*轮播内容尺寸*/
     width: 100%;
 }
-.carousel>.car_img img{
+.carousel>.car_img img{/*轮播图片大小*/
     width: 100%;
 }
-._video{
+._video{/*视频区域尺寸*/
     float: left;
     width: 50%;
     z-index: 1;
 }
 
-.video_{
+.video_{/*视频尺寸*/
     width: 100%;
 }
