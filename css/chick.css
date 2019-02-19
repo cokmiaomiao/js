@@ -1,10 +1,17 @@
 .chick{/*右上角鸡汤*/
     width: 20%;
+    height: 40px;
     position: fixed;
     right: 0;
     top: 0;
     background-color: rgb(218, 223,229);
-
+    overflow: hidden;
+    transition: 1s;
+    
+}
+.chick:hover{
+    height:200px;
+    width: 20%;
 }
 .chick img{/*引用图片*/
     width: 100%;
@@ -14,7 +21,6 @@
     text-align: center;
     color: cornflowerblue;
     line-height: 40px;
-    text-indent: 30px;
 }
 .chick span{/*关闭功能*/
     width: 20px;
@@ -27,6 +33,9 @@
 }
 /*左下角音乐*/
 .bgm{
+    width: 100px;
+    height: 20px;
+    overflow: hidden;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -36,6 +45,11 @@
     border-radius: 5%;
     padding: 5px;
     border:2px solid pink;
+    transition: 1s;
+}
+.bgm:hover{
+    width: 300px;
+    height: 80px;
 }
 .bgm span,.chick span{
     color: tomato;
