@@ -1,0 +1,15 @@
+.chick{
+    width: 20%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.chick img{
+    width: 100%;
+}
+.chick p{
+    font-size: 30px;
+    color: cornflowerblue;
+    line-height: 40px;
+    text-indent: 30px;
+}

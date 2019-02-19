@@ -1,0 +1,20 @@
+.discuss{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    text-indent: 100px;
+}
+.discuss ul li{
+    color:black;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.discuss ul li:hover{
+    background-color: rgb(41,45,50);
+    color:#ccc;
+}
+.discuss span{
+    color: tomato;
+    font-size: 40px;
+
+}

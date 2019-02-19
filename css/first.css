@@ -1,0 +1,22 @@
+.first{
+    clear:both;
+}
+.carousel{
+    width: 50%;
+    clear: both;
+}
+.carousel>.car_img{
+    float: left;
+    width: 100%;
+}
+.carousel>.car_img img{
+    width: 100%;
+}
+._video{
+    float: left;
+    width: 50%;
+}
+.video_{
+    width: 100%;
+    
+}
