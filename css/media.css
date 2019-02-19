@@ -2,8 +2,18 @@
 	.index{/*整体宽度*/
         width: 100%;
     }
-    .index>.nav>.list>li{/*导航列表*/
+    .index>.nav>.list{
+        height: 20px;
+    }
+    .index>.nav>.list>li>ul>li{/*导航下拉列表*/
+        line-height: 20px;
         font-size:15px;
+        height: 20px;
+    }
+    .index>.nav>.list>li{/*导航列表*/
+        line-height: 20px;
+        font-size:15px;
+        height: 20px;
     }
     .discuss{/*文件区文本的缩进*/
         text-indent: 10px;
